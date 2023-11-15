@@ -20,6 +20,10 @@ header {
     border: 2px solid #FBE134;
 }
 
+.border-yellow {
+	border: 1px solid #FBE134;
+}
+
 .text-yellow {
     color: #FBE134;
 }
