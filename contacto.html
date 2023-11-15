@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body class="bg-oscuro">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-black sticky-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5" href="#">
+                    <img src="img/logo_lnda.png" width="100px" alt="Logo" class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link  m-2" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2" href="historia.html">Quiénes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link m-2" href="preguntas.html">Ayuda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active m-2" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-8 col-12 mx-auto">
+                <h1 class="text-yellow display-2 my-5">Contacto</h1>
+                <form id="contact-form" action="/" method="post" class="bg-card mb-5">
+                    <div>
+                        <label class="w-100">
+                            <p class="text-yellow fs-5">Nombre:</p>
+                            <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="w-100">
+                            <p class="text-yellow fs-5">Email:</p>
+                            <input placeholder="Dirección de email" type="email" tabindex="2" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="w-100">
+                            <p class="text-yellow fs-5">Tel: (Opcional)</p>
+                            <input placeholder="Ej: 11 1234 5678" type="tel" tabindex="3" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="w-100">
+                            <p class="text-yellow fs-5">Asunto:</p>
+                            <input placeholder="Motivo del mensaje" type="url" tabindex="4" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="w-100">
+                            <p class="text-yellow fs-5">Mensaje:</p>
+                            <textarea placeholder="¿En que podemos ayudarte?" tabindex="5" required></textarea>
+                        </label>
+                    </div>
+                    <div>
+                        <button name="submit" type="submit" id="contact-submit" class="fw-bold">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4 col-12 mx-auto text-light d-flex me-0 my-5 ">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d495.31650928383004!2d-58.371683859679294!3d-34.59638838236852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1687102226060!5m2!1ses!2sar"
+                    style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-12 col-lg-4 col-12 mx-auto text-light text-left ms-0 my-5">
+                <h3 class="fw-light">Dirección:</h3>
+                <p>Av. Leandro N. Alem 986, C1001AAR CABA</p>
+                <h3 class="fw-light">Teléfonos:</h3>
+                <p>011 4311 3612</p>
+                <p>011 4365 3478</p>
+                <h3 class="fw-light">Horario:</h3>
+                <p>Lun. a Vie. 10 a 17 hs.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!------------------- Footer -------------------->
+
+    <div class="container-fluid mt-5 bg-black">
+        <div class="container">
+            <footer class="row">
+                <div class="col-12 col-md-4 text-md-center text-sm-start text-light py-5 order-md-2">
+                    <p class="pb-2 text-yellow">Seguinos en nuestras redes</p>
+                    <a href="https://www.linkedin.com/in/matiaslautarocastillo/" target="_blank" class="p-2"><img
+                            src="img/linkedin.svg" alt="LinkedIn" width="24px"></a>
+                    <a href="https://www.instagram.com/lanavedeamancio/" target="_blank" class="p-2"><img
+                            src="img/instagram.svg" alt="Instagram" width="24px"></a>
+                    <a href="https://www.facebook.com/" target="_blank" class="p-2"><img src="img/facebook.svg"
+                            alt="Facebook" width="24px"></a>
+                    <a href="https://twitter.com/?logout=1699987539025" target="_blank" class="p-2"><img
+                            src="img/twitterx.svg" alt="X" width="24px"></a>
+                </div>
+                <div class="col 12 col-md-4 text-light py-5 order-md-1">
+                    <p class="text-yellow">Matias Castillo DGD - 12a - 2023</p>
+                    <p class="pb-3">Desarrollo II - Programación I</p>
+                    <p>&copy; 2023 Matias Castillo. Todos los derechos reservados.</p>
+                </div>
+                <div
+                    class="col-md-4 text-light py-5 d-none d-md-block order-md-3">
+                        <ul class="list-unstyled ps-5 ms-5">
+                                <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                                <li><a href="productos.html" class="text-light text-decoration-none">Productos</a></li>
+                                <li><a href="historia.html" class="text-light text-decoration-none">Quiénes Somos</a></li>
+                                <li><a href="preguntas.html" class="text-light text-decoration-none">F.A.Q</a></li>
+                                <li><a href="contacto.html" class="text-yellow text-decoration-none">Contacto</a></li>
+                        </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+
+    <!-- Javascript -->
+    <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="vendors/jquery-3.7.1.min.js"></script>
+</body>
+
+</html>

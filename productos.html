@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+  <!-- Smart Cart-->
+  <link rel="stylesheet" href="vendors/jquery.smartcart/dist/css/smart_cart.min.css">
+
+
+  <!-- Mis estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-black sticky-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#">
+          <img src="img/logo_lnda.png" width="100px" alt="Logo" class="d-inline-block align-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link  m-2" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active m-2" aria-current="page" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="historia.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="preguntas.html">Ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row mt-5">
+
+      <h1 class="display-2 text-oscuro mt-5 mb-3">Productos</h1>
+      <div class="col-md-9 container-fluid p-0 mt-5">
+
+        <div id="catalogo" class="row">
+
+        </div>
+
+      </div>
+      <div class="col-md-3">
+
+        <div id="smartcart"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------------- Footer ------------->
+
+  <div class="container-fluid mt-5 bg-black">
+    <div class="container">
+      <footer class="row mx-auto">
+        <div class="col-12 col-md-4 text-md-center text-sm-start text-light py-5 order-md-2">
+          <p class="pb-2 text-yellow">Seguinos en nuestras redes</p>
+          <a href="https://www.linkedin.com/in/matiaslautarocastillo/" target="_blank" class="p-2"><img
+              src="img/linkedin.svg" alt="LinkedIn" width="24px"></a>
+          <a href="https://www.instagram.com/lanavedeamancio/" target="_blank" class="p-2"><img src="img/instagram.svg"
+              alt="Instagram" width="24px"></a>
+          <a href="https://www.facebook.com/" target="_blank" class="p-2"><img src="img/facebook.svg" alt="Facebook"
+              width="24px"></a>
+          <a href="https://twitter.com/?logout=1699987539025" target="_blank" class="p-2"><img src="img/twitterx.svg"
+              alt="X" width="24px"></a>
+        </div>
+        <div class="col 12 col-md-4 text-light py-5 order-md-1">
+          <p class="text-yellow">Matias Castillo DGD - 12a - 2023</p>
+          <p class="pb-3">Desarrollo II - Programación I</p>
+          <p>&copy; 2023 Matias Castillo. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-4 text-right text-light py-5 d-flex justify-content-center d-none d-md-block order-md-3">
+          <ul class="list-unstyled ps-5 ms-5">
+            <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="productos.html" class="text-yellow text-decoration-none">Productos</a></li>
+            <li><a href="historia.html" class="text-light text-decoration-none">Quiénes Somos</a></li>
+            <li><a href="preguntas.html" class="text-light text-decoration-none">F.A.Q</a></li>
+            <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Javascript -->
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- jQuery -->
+  <script src="vendors/jquery-3.7.1.min.js"></script>
+
+  <!-- Smart Cart-->
+  <script src="vendors/jquery.smartcart/dist/js/jquery.smartCart.js"></script>
+
+  <!-- Scripts -->
+  <script src="js/productos.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

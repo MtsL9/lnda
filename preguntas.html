@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Servicios</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+
+
+  <!-- Mis estilos -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body class="bg-oscuro">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-black sticky-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-5" href="#">
+          <img src="img/logo_lnda.png" width="100px" alt="Logo" class="d-inline-block align-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link  m-2" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="historia.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active m-2" aria-current="page" href="preguntas.html">Ayuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="row my-5">
+      <div class="col-lg-8 mx-auto">
+        <h1 class="text-yellow display-2 my-5">Preguntas Frecuentes</h1>
+        <div class="accordion pt-3" id="accordionExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header ">
+              <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                ¿Cuáles son los métodos de envío disponibles?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark text-light">
+                Actualmente, ofrecemos envío estándar y express. Puedes seleccionar tu preferencia durante el proceso de
+                pago. Los detalles específicos de tiempo y costo se proporcionarán en ese momento.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿Puedo realizar cambios en mi pedido después de haberlo realizado?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark text-light">
+                Lamentablemente, no podemos realizar cambios en los pedidos una vez que han sido confirmados. Te
+                recomendamos revisar cuidadosamente tu pedido antes de completar la compra. Si tienes preguntas,
+                contáctanos lo antes posible.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Cómo puedo realizar un seguimiento de mi pedido?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark text-light">
+                Una vez que tu pedido haya sido enviado, recibirás un correo electrónico con un enlace de seguimiento.
+                Puedes hacer clic en ese enlace para rastrear el estado y la ubicación actual de tu paquete.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Cuál es la política de devoluciones?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark text-light">
+                Aceptamos devoluciones dentro de los 30 días posteriores a la recepción del pedido. El producto debe
+                estar en su estado original y sin usar. Consulta nuestra página de Devoluciones para obtener detalles
+                sobre cómo iniciar el proceso.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item mb-5">
+            <h2 class="accordion-header">
+              <button class="accordion-button bg-dark text-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                ¿Ofrecen envío internacional?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse show " data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark text-light">
+                Sí, realizamos envíos internacionales. Los tiempos de entrega y los costos varían según la ubicación.
+                Durante el proceso de pago, se proporcionarán detalles específicos según la dirección de envío que
+                ingreses.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!------------- Footer ------------->
+
+  <div class="container-fluid mt-5 bg-black">
+    <div class="container">
+      <footer class="row">
+        <div class="col-12 col-md-4 text-md-center text-sm-start text-light py-5 order-md-2">
+          <p class="pb-2 text-yellow">Seguinos en nuestras redes</p>
+          <a href="https://www.linkedin.com/in/matiaslautarocastillo/" target="_blank" class="p-2"><img
+              src="img/linkedin.svg" alt="LinkedIn" width="24px"></a>
+          <a href="https://www.instagram.com/lanavedeamancio/" target="_blank" class="p-2"><img src="img/instagram.svg"
+              alt="Instagram" width="24px"></a>
+          <a href="https://www.facebook.com/" target="_blank" class="p-2"><img src="img/facebook.svg" alt="Facebook"
+              width="24px"></a>
+          <a href="https://twitter.com/?logout=1699987539025" target="_blank" class="p-2"><img src="img/twitterx.svg"
+              alt="X" width="24px"></a>
+        </div>
+        <div class="col 12 col-md-4 text-light py-5 order-md-1">
+          <p class="text-yellow">Matias Castillo DGD - 12a - 2023</p>
+          <p class="pb-3">Desarrollo II - Programación I</p>
+          <p>&copy; 2023 Matias Castillo. Todos los derechos reservados.</p>
+        </div>
+        <div class="col-md-4 text-right text-light py-5 d-flex justify-content-center d-none d-md-block order-md-3">
+          <ul class="list-unstyled ps-5 ms-5">
+            <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+            <li><a href="productos.html" class="text-light text-decoration-none">Productos</a></li>
+            <li><a href="historia.html" class="text-light text-decoration-none">Quiénes Somos</a></li>
+            <li><a href="preguntas.html" class="text-yellow text-decoration-none">F.A.Q</a></li>
+            <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Javascript -->
+  <script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- jQuery -->
+  <script src="vendors/jquery-3.7.1.min.js"></script>
+</body>
+
+</html>
